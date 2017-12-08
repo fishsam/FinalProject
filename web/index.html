@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
+        <ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
         <link rel="stylesheet" type="text/css" href="css.css">
-        <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    
     <body>
-       <div class="fade"></div>
-
+        <script>
+        var timer = setTimeout(function() {
+            window.location='Home.html'
+        }, 60000);
+    </script>
+        <audio autoplay hidden="true">
+  <source src="StarWars.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+        
+        
+        
 <section class="star-wars">
   <div class="crawl">
     <div class="title">
-      <p>Episode IV</p>
-      <h1>A New Hope</h1>
+      <p><img src="Doge.png" alt="Doge"></p>
+      <h1>A New Project</h1>
     </div>
     
     <p>It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.</p>
@@ -28,5 +39,6 @@ and open the template in the editor.
     <p>Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy….</p>
   </div>
 </section>
+        
     </body>
-</html>
+    </html>

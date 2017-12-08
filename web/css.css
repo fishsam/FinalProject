@@ -11,7 +11,7 @@ body {
   min-height: 60vh;
   top: -25px;
   background-image: linear-gradient(0deg, transparent, black 75%);
-  z-index: 1;
+  z-index: -1;
 }
 
 .star-wars {
@@ -49,10 +49,19 @@ body {
 @keyframes crawl {
     0% {
     top: -100px;
-    transform: rotateX(20deg)  translateZ(0);
+    transform: rotateX(20deg)  translateZ(5);
   }
     100% { 
     top: -6000px;
     transform: rotateX(25deg) translateZ(-2500px);
   }
 }
+
+
+
+ 
+
+
+ 
+
+ 
